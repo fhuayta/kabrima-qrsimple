@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Viewfinder Corners (Emerald #10B981) -->
+    <!-- Top-Left Corner -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M28,28 L42,28 C43.1,28 44,28.9 44,30 C44,31.1 43.1,32 42,32 L32,32 L32,42 C32,43.1 31.1,44 30,44 C28.9,44 28,43.1 28,42 Z" />
+
+    <!-- Top-Right Corner -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M80,28 L66,28 C64.9,28 64,28.9 64,30 C64,31.1 64.9,32 66,32 L76,32 L76,42 C76,43.1 76.9,44 78,44 C79.1,44 80,43.1 80,42 Z" />
+
+    <!-- Bottom-Left Corner -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M28,80 L42,80 C43.1,80 44,79.1 44,78 C44,76.9 43.1,76 42,76 L32,76 L32,66 C32,64.9 31.1,64 30,64 C28.9,64 28,64.9 28,66 Z" />
+
+    <!-- Bottom-Right Corner -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M80,80 L66,80 C64.9,80 64,79.1 64,78 C64,76.9 64.9,76 66,76 L76,76 L76,66 C76,64.9 76.9,64 78,64 C79.1,64 80,64.9 80,66 Z" />
+
+    <!-- QR Finder 1: Top-Left (Mint #34D399) -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M35,35 L47,35 A2,2 0 0,1 49,37 L49,49 A2,2 0 0,1 47,51 L35,51 A2,2 0 0,1 33,49 L33,37 A2,2 0 0,1 35,35 Z M37,39 L37,47 L45,47 L45,39 Z" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M39,41 L43,41 A1,1 0 0,1 44,42 L44,44 A1,1 0 0,1 43,45 L39,45 A1,1 0 0,1 38,44 L38,42 A1,1 0 0,1 39,41 Z" />
+
+    <!-- QR Finder 2: Top-Right -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M61,35 L73,35 A2,2 0 0,1 75,37 L75,49 A2,2 0 0,1 73,51 L61,51 A2,2 0 0,1 59,49 L59,37 A2,2 0 0,1 61,35 Z M63,39 L63,47 L71,47 L71,39 Z" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M65,41 L69,41 A1,1 0 0,1 70,42 L70,44 A1,1 0 0,1 69,45 L65,45 A1,1 0 0,1 64,42 L64,42 A1,1 0 0,1 65,41 Z" />
+
+    <!-- QR Finder 3: Bottom-Left -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M35,61 L47,61 A2,2 0 0,1 49,63 L49,75 A2,2 0 0,1 47,77 L35,77 A2,2 0 0,1 33,75 L33,63 A2,2 0 0,1 35,61 Z M37,65 L37,73 L45,73 L45,65 Z" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M39,67 L43,67 A1,1 0 0,1 44,68 L44,70 A1,1 0 0,1 43,71 L39,71 A1,1 0 0,1 38,70 L38,68 A1,1 0 0,1 39,67 Z" />
+
+    <!-- QR Data Matrix Dots (White / Mint) -->
+    <path
+        android:fillColor="#F0FDF4"
+        android:pathData="M52,36 h3 v3 h-3 z M56,36 h3 v3 h-3 z M52,44 h3 v3 h-3 z M56,48 h3 v3 h-3 z M60,56 h3 v3 h-3 z M66,56 h3 v3 h-3 z M72,56 h3 v3 h-3 z M52,62 h3 v3 h-3 z M56,66 h3 v3 h-3 z M62,64 h3 v3 h-3 z M68,64 h3 v3 h-3 z M72,68 h3 v3 h-3 z M62,72 h3 v3 h-3 z M66,72 h3 v3 h-3 z" />
+
+    <!-- Laser Scanning Beam (Glowing Mint Line) -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M29,53 L79,53 A1.5,1.5 0 0,1 79,56 L29,56 A1.5,1.5 0 0,1 29,53 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,54 L74,54 A0.5,0.5 0 0,1 74,55 L34,55 A0.5,0.5 0 0,1 34,54 Z" />
+
+</vector>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información Legal / Legal Information — QR Simple</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #e2e8f0;
+            --text-muted: #94a3b8;
+            --heading-color: #f8fafc;
+            --primary: #10b981;
+            --primary-hover: #059669;
+            --border: #334155;
+            --code-bg: #0b1120;
+        }
+        @media (prefers-color-scheme: light) {
+            :root {
+                --bg-color: #f8fafc;
+                --card-bg: #ffffff;
+                --text-color: #334155;
+                --text-muted: #64748b;
+                --heading-color: #0f172a;
+                --primary: #059669;
+                --primary-hover: #047857;
+                --border: #e2e8f0;
+                --code-bg: #f1f5f9;
+            }
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.65;
+            padding: 32px 16px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 680px;
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 40px 32px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .icon {
+            font-size: 3rem;
+            margin-bottom: 12px;
+            display: inline-block;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 0.8rem;
+            padding: 4px 12px;
+            border-radius: 9999px;
+            margin-bottom: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        h1 {
+            color: var(--heading-color);
+            font-size: 1.9rem;
+            margin-bottom: 8px;
+        }
+        p.subtitle {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 32px;
+        }
+        .cards {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            text-align: left;
+        }
+        .legal-card {
+            display: block;
+            background: var(--code-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            text-decoration: none;
+            color: inherit;
+            transition: border-color 0.2s ease, transform 0.15s ease;
+        }
+        .legal-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+        .legal-card h2 {
+            color: var(--heading-color);
+            font-size: 1.15rem;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .legal-card p {
+            color: var(--text-muted);
+            font-size: 0.88rem;
+            line-height: 1.5;
+        }
+        footer {
+            margin-top: 36px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">&#9889;</div>
+        <span class="badge">Centro Legal</span>
+        <h1>QR Simple</h1>
+        <p class="subtitle">Documentación legal oficial &bull; Official Legal Information (<code>com.kabrima.qrsimple</code>)</p>
+
+        <div class="cards">
+            <a href="privacy/" class="legal-card">
+                <h2>&#128737;&#65039; Política de Privacidad / Privacy Policy</h2>
+                <p>
+                    Detalle sobre el uso exclusivo de la cámara para escaneo en el dispositivo, diagnósticos de Google ML Kit, almacenamiento local y ausencia de publicidad.
+                </p>
+            </a>
+
+            <a href="terms/" class="legal-card">
+                <h2>&#128220; Términos y Condiciones / Terms &amp; Conditions</h2>
+                <p>
+                    Condiciones de uso de la aplicación, licencia personal, responsabilidad sobre códigos escaneados y naturaleza de las propinas voluntarias.
+                </p>
+            </a>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 <strong>Kabrima</strong> &bull; La Paz, Bolivia &bull; <a href="mailto:info@kabrima.com">info@kabrima.com</a></p>
+        </footer>
+    </div>
+</body>
+</html>
+

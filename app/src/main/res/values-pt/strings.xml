@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">QR Simple</string>
+
+    <!-- General & Navigation -->
+    <string name="nav_scanner">Escanear</string>
+    <string name="nav_generator">Criar QR</string>
+    <string name="nav_history">Histórico</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Salvar</string>
+    <string name="close">Fechar</string>
+    <string name="delete">Excluir</string>
+    <string name="copy">Copiar</string>
+    <string name="share">Compartilhar</string>
+
+    <!-- Scanner Screen -->
+    <string name="scanner_permission_title">Permissão de Câmera Necessária</string>
+    <string name="scanner_permission_desc">O QR Simple precisa de acesso à câmera exclusivamente para escanear em tempo real no seu dispositivo. Nenhuma foto ou vídeo é salvo.</string>
+    <string name="scanner_permission_grant">Permitir Acesso à Câmera</string>
+    <string name="scanner_permission_gallery">Escanear da Galeria</string>
+    <string name="scanner_permission_settings">Abrir Configurações do App</string>
+    <string name="scanner_torch_desc">Alternar lanterna</string>
+    <string name="scanner_gallery_desc">Escanear foto da galeria</string>
+    <string name="scanner_support_desc">Apoiar o projeto</string>
+    <string name="scanner_zoom_desc">Alterar nível de zoom</string>
+    <string name="scanner_error_gallery">Nenhum código QR válido encontrado na imagem selecionada</string>
+
+    <!-- QR Result Bottom Sheet -->
+    <string name="result_type_url">Site Detectado</string>
+    <string name="result_type_wifi">Rede Wi-Fi Detectada</string>
+    <string name="result_type_contact">Contato Detectado</string>
+    <string name="result_type_phone">Número de Telefone</string>
+    <string name="result_type_sms">Mensagem SMS</string>
+    <string name="result_type_email">Endereço de E-mail</string>
+    <string name="result_type_geo">Localização no Mapa</string>
+    <string name="result_type_text">Texto Simples</string>
+    <string name="result_action_open_url">Abrir Link Web</string>
+    <string name="result_action_connect_wifi">Conectar ao Wi-Fi</string>
+    <string name="result_action_copy_password">Copiar Senha</string>
+    <string name="result_action_add_contact">Salvar nos Contatos</string>
+    <string name="result_action_call">Ligar</string>
+    <string name="result_action_send_sms">Enviar SMS</string>
+    <string name="result_action_send_email">Escrever E-mail</string>
+    <string name="result_action_open_maps">Ver no Google Maps</string>
+    <string name="result_action_copy_content">Copiar Conteúdo</string>
+    <string name="result_action_share">Compartilhar</string>
+    <string name="result_favorite_add">Marcar como Favorito</string>
+    <string name="result_favorite_remove">Remover dos Favoritos</string>
+    <string name="result_wifi_security">Segurança: %1$s</string>
+    <string name="result_wifi_password">Senha: %1$s</string>
+    <string name="result_copied_toast">Copiado para a área de transferência</string>
+
+    <!-- Generator Screen -->
+    <string name="generator_title">Criar Código QR</string>
+    <string name="generator_tab_url">Link</string>
+    <string name="generator_tab_wifi">Wi-Fi</string>
+    <string name="generator_tab_text">Texto</string>
+    <string name="generator_tab_whatsapp">WhatsApp</string>
+    <string name="generator_tab_email">E-mail</string>
+    <string name="generator_label_url">Link ou URL Web</string>
+    <string name="generator_hint_url">https://exemplo.com</string>
+    <string name="generator_label_ssid">Nome da rede (SSID)</string>
+    <string name="generator_hint_ssid">MinhaRedeWiFi</string>
+    <string name="generator_label_password">Senha da rede</string>
+    <string name="generator_hint_password">Mínimo de 8 caracteres</string>
+    <string name="generator_label_security">Tipo de segurança</string>
+    <string name="generator_label_text">Texto ou Mensagem</string>
+    <string name="generator_hint_text">Digite o conteúdo a codificar...</string>
+    <string name="generator_label_phone">Número de telefone (com DDI/DDD)</string>
+    <string name="generator_hint_phone">+55 11 99999-9999</string>
+    <string name="generator_label_wa_message">Mensagem padrão (opcional)</string>
+    <string name="generator_hint_wa_message">Olá, gostaria de mais informações...</string>
+    <string name="generator_label_email_to">Endereço de e-mail (Destinatário)</string>
+    <string name="generator_hint_email_to">contato@exemplo.com</string>
+    <string name="generator_label_email_subject">Assunto do e-mail</string>
+    <string name="generator_hint_email_subject">Dúvida sobre...</string>
+    <string name="generator_label_email_body">Corpo da mensagem</string>
+    <string name="generator_hint_email_body">Escreva sua mensagem aqui...</string>
+    <string name="generator_btn_save_gallery">Salvar na Galeria</string>
+    <string name="generator_btn_share">Compartilhar QR</string>
+    <string name="generator_success_save">Código QR salvo na galeria</string>
+    <string name="generator_error_save">Erro ao salvar na galeria</string>
+    <string name="generator_error_empty">Por favor, insira o conteúdo para gerar o QR</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Histórico</string>
+    <string name="history_count">%1$d códigos salvos</string>
+    <string name="history_search_hint">Buscar por título, conteúdo ou URL...</string>
+    <string name="history_filter_all">Todos</string>
+    <string name="history_filter_urls">Links</string>
+    <string name="history_filter_wifi">Wi-Fi</string>
+    <string name="history_filter_contacts">Contatos</string>
+    <string name="history_filter_text">Texto</string>
+    <string name="history_filter_favorites">Favoritos</string>
+    <string name="history_empty_title">Nenhum código salvo</string>
+    <string name="history_empty_subtitle">Os códigos QR que você escanear serão salvos automaticamente aqui para consultar quando quiser.</string>
+    <string name="history_search_empty_title">Nenhum resultado encontrado</string>
+    <string name="history_search_empty_subtitle">Tente outras palavras-chave ou confira os filtros.</string>
+    <string name="history_dialog_clear_title">Limpar histórico?</string>
+    <string name="history_dialog_clear_message">Esta ação excluirá todos os códigos salvos permanentemente. Não é possível desfazer.</string>
+    <string name="history_dialog_clear_confirm">Limpar tudo</string>
+    <string name="history_dialog_edit_title">Editar Título</string>
+    <string name="history_dialog_edit_hint">Título personalizado</string>
+    <string name="history_edit_action_desc">Editar título</string>
+    <string name="history_clear_action_desc">Limpar histórico</string>
+    <string name="history_search_action_desc">Buscar</string>
+    <string name="history_clear_search_desc">Limpar busca</string>
+
+    <!-- Relative Time -->
+    <string name="time_just_now">Agora mesmo</string>
+    <string name="time_minutes_ago">Há %1$d min</string>
+    <string name="time_today">Hoje, %1$s</string>
+    <string name="time_yesterday">Ontem, %1$s</string>
+
+    <!-- Support / Tip Jar Strings -->
+    <string name="tip_dialog_title">Apoiar o QR Simple</string>
+    <string name="tip_dialog_subtitle">O QR Simple é gratuito, sem anúncios e sem contas. A leitura e o histórico ficam no seu telefone. Se for útil para você, considere me pagar um café para apoiar o desenvolvimento independente.</string>
+    <string name="tip_coffee_title">Um Café</string>
+    <string name="tip_coffee_desc">Ajuda a manter o app livre de anúncios</string>
+    <string name="tip_lunch_title">Um Almoço</string>
+    <string name="tip_lunch_desc">Impulsiona novas funções e melhorias</string>
+    <string name="tip_supporter_title">Super Patrocinador</string>
+    <string name="tip_supporter_desc">Apoio máximo a este projeto livre</string>
+    <string name="settings_supporter_badge">⭐ Muito obrigado pelo seu apoio generoso!</string>
+    <string name="tip_play_store_unavailable">Serviços do Google Play indisponíveis</string>
+    <string name="tip_error_generic">Não foi possível concluir a compra. Tente novamente.</string>
+    <string name="tip_thanks_message">Muito obrigado por apoiar o QR Simple! ❤️</string>
+
+    <!-- About & Legal -->
+    <string name="about_title">Sobre o QR Simple</string>
+    <string name="about_version">Versão %1$s</string>
+    <string name="about_description">Leitor e gerador de códigos QR no dispositivo. Sem anúncios, sem contas e com histórico protegido no seu telefone.</string>
+    <string name="about_developer">Desenvolvido por Kabrima • La Paz, Bolívia</string>
+    <string name="about_contact">info@kabrima.com</string>
+    <string name="legal_privacy_policy">Política de Privacidade</string>
+    <string name="legal_terms_of_use">Termos de Uso</string>
+    <string name="about_action_support">Pague-me um café ☕</string>
+    <string name="about_action_desc">Sobre e legal</string>
+</resources>
+
